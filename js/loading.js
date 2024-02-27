@@ -2,6 +2,7 @@ loadText = document.querySelector('.loading-text')
 bg = document.querySelector('.bg')
 load = 0
 int = setInterval(blurring, 30)
+blurring()
 function blurring() {
     load++
     if (load > 99){
