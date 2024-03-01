@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    height: 100vh;
+    margin: 0;
+
+}
+
+.bg {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    background-image: url(images/kirbo.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: pink;
+    text-shadow: red;
+}
+
+.linkies {
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    left: 25px;
+}
