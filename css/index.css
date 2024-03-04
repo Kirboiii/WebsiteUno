@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: center;
     color: pink;
-    text-shadow: red;
+    outline-color: red;
 }
 
 .linkies {
