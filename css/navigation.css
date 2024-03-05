@@ -18,5 +18,14 @@ body {
 }
 
 .hero {
-    background-image: url(images/lake.jpg)
+    background-image: url(images/lake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
