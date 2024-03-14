@@ -1,4 +1,4 @@
-sounds = ['Asian Riff', 'Consequences', 'Fail', 'Music', 'Stuka', 'Vine Boom', 'WTHOMG', 'YIPPEE!']
+sounds = ['Pick me, I play a sound.', 'Pick me. I play a sound.','Pick me, I play a sound!', 'Pick me. I play a sound!']
 sounds.forEach(sound => {
     btn = document.createElement('button')
     btn.classList.add('btn')
